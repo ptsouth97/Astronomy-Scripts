@@ -1,3 +1,4 @@
+# Enter masses and radius in scientific notation form
 G=6.67*10**(0-11)
 m1=float(input("m1= "))
 e1=float(input("e1= "))
