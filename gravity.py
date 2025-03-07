@@ -1,6 +1,7 @@
+import constants
 def main():
 	''' Enter masses and radius in scientific notation form'''
-	G=6.67*10**(0-11)
+	G=constants.G
 	m1=float(input("m1= "))
 	e1=float(input("e1= "))
 	m2=float(input("m2= "))
