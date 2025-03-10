@@ -1,8 +1,10 @@
 import constants
 '''Convert from one distance unit to another'''
-value=float(input("What is the value to be converted?  "))
-x=input("Convert from: m, AU, ly, pc:  ")
-y=input("Convert to: m, AU, ly, pc:  ")
+print("What is the value to")
+print(" be converted? ")
+value=input()
+x=input("From: m,AU,ly,pc:  ")
+y=input("To: m,AU,ly,pc:  ")
 if(x=='m'):
 	if(y=='AU'):
 		z=constants.m_AU
